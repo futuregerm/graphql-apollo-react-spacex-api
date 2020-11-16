@@ -7,7 +7,7 @@ import "./App.css";
 import logo from "./logo.png";
 
 const client = new ApolloClient({
-  uri: "http://localhost:5000/grahpql",
+  uri: "/grahpql",
   cache: new InMemoryCache(),
 });
 
